@@ -1,0 +1,21 @@
+.ks-rollingplate-wrap {
+	position: relative;
+}
+
+.ks-rollingplate-wrap .ks-rollingplate-plate {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(http://img01.taobaocdn.com/tps/i1/T1CmGQXrpaXXcwnA2m-462-462.png) no-repeat;
+	width: 462px;
+	height: 462px;
+}
+
+.ks-rollingplate-wrap .ks-rollingplate-pointer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(http://img03.taobaocdn.com/tps/i3/T11pSPXp4gXXcoPeYv-150-150.png) no-repeat;
+	width: 150px;
+	height: 150px;
+}
