@@ -26,7 +26,18 @@
 	});
 	KISSY.use('gallery/rollingplate/1.0/',function(S,Rollingplate){
 		new Rollingplate('rollingplate-container', {
-			rotateOffset: 45
+			rotateOffset: 45,
+			rotateTarget: 'plate',
+			rotateRound: 5,
+			rotateDuration: 5,
+			rotateEffect: 'ease-in-out',
+			awardList: [
+				{awardId: '4012', awardRate: 0.25},
+				{awardId: '4013', awardRate: 0.5},
+				{awardId: '4014', awardRate: 0.15},
+				{awardId: '4015', awardRate: 0.075},
+				{awardId: '4016', awardRate: 0.025}
+			]
 		});
 	});
 		
